@@ -1,11 +1,7 @@
-<div class="alert alert-warning">
-    This guide still needs a lot of work
-</div>
-
 # Minimal Requirements
 
-1. jQuery
-2. Moment.js
+1. jQuery <a href="https://jquery.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+2. Moment.js <a href="https://github.com/moment/moment/tree/master/locale" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
 3. Locales: Moment's locale files are [here](https://github.com/moment/moment/tree/master/locale)
 
 # Installation Guides
@@ -13,14 +9,13 @@
 * [Rails](#rails)
 * [Django](#django)
 * [Angular](#angular-wrapper)
-* [Meteor.js](#meteorjs)
 * [Manual](#manual)
 
 ## CDN
 ```html
 <head>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/js/tempusdominus-bootstrap-4.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/css/tempusdominus-bootstrap-4.min.css" crossorigin="anonymous" />
 </head>
 ```
 
@@ -47,21 +42,14 @@ Python package for Django: [Django Tempus Dominus](https://pypi.org/project/djan
 
 Follow instructions at [ngx-tempusdominus-bootstrap](https://github.com/fetrarij/ngx-tempusdominus-bootstrap) 
 
-### Meteor.js
-
-Need new wrapper for this version.
-
 ## Manual
 
-1. Acquire [jQuery](http://jquery.com)
+1. Acquire [jQuery](https://jquery.com)
 2. Acquire [Moment.js](https://github.com/moment/moment)
-3. Acquire
+3. Acquire [Tempus Dominus - Bootstrap 4](https://github.com/tempusdominus/bootstrap-4)
 ```html
 <script type="text/javascript" src="/path/to/jquery.js"></script>
 <script type="text/javascript" src="/path/to/moment.js"></script>
 <script type="text/javascript" src="/path/to/tempusdominus-bootstrap-4.min.js"></script>
+<link rel="stylesheet" href="/path/to/tempusdominus-bootstrap-4.min.css"/>
 ```
-
-## Knockout
-
-Need new wrapper for this version.

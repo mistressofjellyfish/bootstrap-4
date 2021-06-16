@@ -1,5 +1,3 @@
-## Options
-
 <div class="alert alert-info">
     <strong>Note</strong>
    Initialize options as 
@@ -334,15 +332,15 @@ Change the default icons for the pickers functions.
 
 #### icons
 
-Returns an `Ojbect` of `options.icons` 
+Returns an `Object` of `options.icons` 
 
 #### icons, [icons]
 
-Takes an `Ojbect` of `strings`.
+Takes an `Object` of `strings`.
 
 ##### Throws
 
-* `TypeError` - if icons parameter is not an `Ojbect`
+* `TypeError` - if icons parameter is not an `Object`
 
 ----------------------
 
@@ -480,15 +478,15 @@ Change the default toolbar buttons for the pickers functions.
 
 #### buttons
 
-Returns an `Ojbect` of `options.buttons` 
+Returns an `Object` of `options.buttons` 
 
 #### buttons, [buttons]
 
-Takes an `Ojbect` of `boolean`.
+Takes an `Object` of `boolean`.
 
 ##### Throws
 
-* `TypeError` - if buttons parameter is not an `Ojbect`
+* `TypeError` - if buttons parameter is not an `Object`
 
 ----------------------
 
@@ -843,6 +841,7 @@ tooltips: {
     today: 'Go to today',
     clear: 'Clear selection',
     close: 'Close the picker',
+    selectTime: 'Select Time',
     selectMonth: 'Select Month',
     prevMonth: 'Previous Month',
     nextMonth: 'Next Month',
@@ -870,15 +869,15 @@ This will change the `tooltips` over each icon to a custom string.
 
 #### tooltips
 
-Returns an `Ojbect` of `options.tooltips` 
+Returns an `Object` of `options.tooltips` 
 
 #### tooltips, [tooltips]
 
-Takes an `Ojbect` of `strings`.
+Takes an `Object` of `strings`.
 
 ##### Throws
 
-* `TypeError` - if `tooltips` parameter is not an `Ojbect`
+* `TypeError` - if `tooltips` parameter is not an `Object`
 
 ----------------------
 
